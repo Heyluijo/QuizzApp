@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+font-family: Montserrat;
+}
+
+
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header{
+    height: auto;
+    color: white;
+    background-color: #2c4058;
+    border-radius: 0px 0px 30px 30px;
+    position: relative;
+    z-index: -1;
+    align-content: center;
+    padding: 2vh 0;  
+}
+
+header i{
+    color: white;
+}
+
+#quiz{
+    margin-top: -1rem;
+    color: white;
+    background-color: #242a40;
+    padding: 4rem;
+    z-index: 10;
+    text-align: center;
+    
+}
+
+footer{
+    background-color: #161b29;
+    padding: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.icon-user {
+
+    background-color: #eb812b;
+    border-radius: 20px;
+    padding: 0.8vh;
+    border: 2px solid whitesmoke;
+    }
+
+
+
+.puntaje{
+    margin:0;
+    background-color:#eb812b ;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.btn-validar{
+    background-color: #cdd9e6;
+    color: #242b3e;
+    margin: 0 auto;
+    width: 50vh;
+    height: 6vh;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    border: none;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+
+}
+
+.btn-validar:hover{
+    background-color: #88919b;
+    color: white;
+    margin: 0 auto;
+    width: 50vh;
+    height: 6vh;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    border: none;
+    font-size: 30px;
+}
+
+.quiz h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    margin-top: 2vh;
+}
+
+.icon-heart{
+    display: none;
+}
+
+#opciones button{
+    margin: 1vh;
+    padding: 2vh;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+#opciones button:hover{
+    background-color:#eb812b;
+    color: white;
+    transition: all 0.3s;
+}
+
+@media only screen and (max-width: 544px) {
+
+#opciones button{
+    display: block;
+    width: 100%;
+}
+
+.puntaje{
+    margin:auto;
+    background-color:#eb812b ;
+    color: white;
+    border-radius: 10px;
+}
+
+#quiz{
+
+    background-color: #242b3e;
+    position: relative;
+    padding-top: 10vh;
+    
+    }
+
+    .icon-heart{
+        padding-top: 0.5vh;
+        display: block;
+        color: red;
+    }
+
+    .puntaje .oportunidades{
+        display: none;
+    }
+    
+    .app{
+        padding:0;
+        margin: 0;
+    }
+}
